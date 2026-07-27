@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_zips_macro_list",
+  "source_file": "utl-python-send-a-list-of-zipcodes-to-a-website-and-get-associated--latititude-and-longitudes.sas",
+  "source_blob_sha": "958076b3ab2c7989914ca91b3c29c2097c309fdf",
+  "source_commit": "05109e2d0900b2ed412c99fb1017feee406b26f4",
+  "notes": "Repo's macro-variable ZIP list core kept verbatim (%symdel; %let zips=\"97048\", \"63640\", \"63628\"; %put &=zips;) — produces the documented log line ZIPS=... . The Python/web step (%utl_pybeginx/parmcards4/%utl_pyendx, calling api.promaptools.com via a Windows Python pipe) is replaced with a pure-SAS DATA step that parses the same &zips list into a 3-row dataset and PROC PRINTs it, so the bundle runs with no network or local Python."
+}

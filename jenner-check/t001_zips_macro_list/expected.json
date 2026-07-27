@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-27T18:32:01Z",
+  "_captured_run_id": "r_a87716e8a8e1421ead05a4a534a39b49",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "ZIPS=\"97048\", \"63640\", \"63628\"",
+    "NOTE: Wrote zipcodes (3 rows, 1 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 1 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

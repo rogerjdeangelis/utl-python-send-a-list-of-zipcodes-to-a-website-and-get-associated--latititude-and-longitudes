@@ -1,0 +1,12 @@
+ZIPS="97048", "63640", "63628"
+NOTE: Option OBS changed to 100.
+NOTE: DATA zipcodes
+
+
+NOTE: Wrote zipcodes (3 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=zipcodes
+
+NOTE: PROC PRINT completed: 3 observations printed, 1 variables
